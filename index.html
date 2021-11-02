@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>My first webpage</title>
+</head>
+
+<body>
+    <nav>
+        <h1>Add and subtract Two Numbers</h1>
+        <p>
+            Developed with 💙 by
+            <a href="https://techanalogy.org" id="foot">Tech Analogy</a>
+        </p>
+    </nav>
+    <form onsubmit="add()" class="form">
+        <input type="number" id="a" placeholder="first number" />
+        <input type="number" id="b" placeholder="second number" />
+        <button type="submit">+</button>
+    </form>
+    <p style="display: none" id="ans">Sum : <input id="answer" /></p>
+    
+    
+    <form  onsubmit ="sub()" class="subform">
+        <input type="number" id="a1" placeholder="first number" />
+        <input type="number" id="b1" placeholder="second number" />
+        <button type="submit">-</button>
+    </form>
+    <p style="display: none" id="ans1">Sub : <input id="answer1" /></p>
+    
+    
+    <script src="./script.js"></script>
+    
+</body>
+
+</html>
